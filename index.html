@@ -1,89 +1,267 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>VAKNAR SMA-SERVICIOS INFORMATICOS</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://unpkg.com/feather-icons"></script>
-</head>
-<body class="bg-gray-100 text-gray-800 font-sans antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VAKNAR SMA-SERVICIOS INFORMATICOS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-800 font-sans antialiased">
+    <!-- HERO CON VIDEO DE FONDO -->
+    <section class="relative h-screen text-white text-center overflow-hidden">
+      <video
+        autoplay
+        muted
+        loop
+        playsinline
+        class="absolute top-0 left-0 w-full h-full object-cover z-0"
+      >
+        <source src="video001.mp4" type="video/mp4" />
+      </video>
+      <div
+        class="relative z-10 flex flex-col justify-center items-center h-full bg-black/60 px-6"
+      >
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">
+          "LINK-SMA Despertamos sistemas. Desafiamos límites."
+        </h1>
+        <p class="text-3xl md:text-xl">Formatea, optimiza y toma el control.</p>
+        <a
+          href="https://wa.me/549299154136709"
+          class="mt-6 inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white py-3 px-6 rounded-xl font-semibold text-lg transition transform hover:scale-105 shadow-lg"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+            alt="WhatsApp"
+            class="w-7 h-7"
+          />
 
-  <!-- HERO CON VIDEO DE FONDO -->
-  <section class="relative h-screen text-white text-center overflow-hidden">
-    <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
-      <source src="video001.mp4" type="video/mp4">
-    </video>
-    <div class="relative z-10 flex flex-col justify-center items-center h-full bg-black/60 px-6">
-      <h1 class="text-4xl md:text-5xl font-bold mb-4">"SURNOVA-SMA Despertamos sistemas. Desafiamos límites."
+          Escribinos tu consulta por WhatsApp
+        </a>
 
-</h1>
-      <p class="text-lg md:text-xl">Formatea, optimiza y toma el control.
-      Internet, Formateo y Optimizacion, Paginas web.</p>
-      <a href="https://wa.me/549299154136709" class="mt-6 bg-green-500 hover:bg-green-600 text-white py-3 px-6 rounded-xl font-semibold transition transform hover:scale-105">
-        Escribinos tu consulta por WhatsApp
+        <br />
+
+        <ul>
+          <li>
+            <p class="text-lg">
+              Instalacion y configuracion de Internet Starlink
+            </p>
+          </li>
+          <li>
+            <p class="text-lg">Formateo y Optimizacion de PC.</p>
+          </li>
+          <li>
+            <p class="text-lg">
+              Paginas web para profesionales y emprendedores.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="py-12 px-6 max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-10">
+        ¿Qué puedo hacer por vos?
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+          <div class="flex items-center mb-3">
+            <i data-feather="hard-drive" class="w-6 h-6 mr-2 text-blue-500"></i>
+            <h3 class="text-2xl font-semibold">
+              Formateo con Backup Inteligente
+            </h3>
+          </div>
+          <p class="text-lg text-gray-600">
+            Respaldo todos tus archivos y reinstalo el sistema. Sin pérdidas,
+            sin sorpresas.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+          <div class="flex items-center mb-3">
+            <i data-feather="zap" class="w-6 h-6 mr-2 text-yellow-500"></i>
+            <h3 class="text-2xl font-semibold">PC optimizada al 100%</h3>
+          </div>
+          <p class="text-lg text-gray-600">
+            Instalo Windows, drivers, Office y la dejo lista para rendir como
+            nueva.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+          <div class="flex items-center mb-3">
+            <i data-feather="wifi" class="w-6 h-6 mr-2 text-purple-500"></i>
+            <h3 class="text-2xl font-semibold">Starlink 100% funcional</h3>
+          </div>
+          <p class="text-lg text-gray-600">
+            De la caja a la conexión. Configuro tu sistema satelital para que
+            navegues sin límites.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+          <div class="flex items-center mb-3">
+            <i data-feather="globe" class="w-6 h-6 mr-2 text-green-500"></i>
+            <h3 class="text-2xl font-semibold">Landing pages efectivas</h3>
+          </div>
+          <p class="text-lg text-gray-600">
+            Diseño páginas rápidas, claras y conectadas a WhatsApp y Mercado
+            Pago. Para que vendas sin perder tiempo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-black text-white py-16 px-6">
+      <div class="max-w-7xl mx-auto text-center mb-12">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">
+          Conectá tu mundo con Starlink
+        </h2>
+        <h2 class="text-3xl md:text-5xl font-bold mb-4 leading-tight">
+          Instalación Profesional
+        </h2>
+        <p class="text-lg md:text-2xl text-gray-300">
+          Vos traés el equipo, o te ayudamos a adquirirlo al mejor precio.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <!-- Card 1 -->
+        <div
+          class="bg-gray-900 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition"
+        >
+          <img
+            src="starlink/img006.png"
+            alt="Starlink Instalación"
+            class="w-full h-64 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-2">Instalación profesional</h3>
+            <p class="text-gray-400 text-sm">
+              Montaje preciso, orientación óptima y configuración completa. Tu
+              antena en manos expertas.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="bg-gray-900 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition"
+        >
+          <img
+            src="starlink/img001.png"
+            alt="Starlink funcionando"
+            class="w-full h-64 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-2">Internet sin límites</h3>
+            <p class="text-gray-400 text-sm">
+              Activación del sistema, test de velocidad y optimización de la red
+              en tu casa o empresa.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-12"></div>
+    </section>
+
+    <!-- CTA PAGO -->
+    <section class="text-center py-12 bg-white">
+      <h2 class="text-2xl font-semibold mb-4">
+        ¿Querés que lo resolvamos ya?<br />
+        Conectá tu casa o negocio con la tecnología satelital más avanzada del
+        mundo.<br />
+        Servicio especializado en toda la Patagonia.
+      </h2>
+      <a
+        href="https://wa.me/549299154136709"
+        class="mt-6 inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white py-3 px-6 rounded-xl font-semibold text-lg transition transform hover:scale-105 shadow-lg"
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+          alt="WhatsApp"
+          class="w-7 h-7"
+        />
       </a>
+    </section>
+
+    <section class="relative bg-black text-white overflow-hidden">
+      <!-- Imagen de fondo tipo Starlink satelital -->
+      <img
+        src="https://wallpapercave.com/wp/wp11062060.jpg"
+        alt="Starlink"
+        class="absolute inset-0 w-full h-full object-cover opacity-30"
+      />
+
+      <!-- Capa oscura encima para legibilidad -->
+      <div class="absolute inset-0 bg-black/70"></div>
+
+      <!-- Contenido principal -->
+      <div
+        class="relative z-10 max-w-6xl mx-auto px-6 py-20 text-center flex flex-col items-center justify-center"
+      >
+        <p class="text-lg md:text-xl max-w-2xl text-gray-300 mb-8">
+          Conectá tu casa o negocio con la tecnología satelital más avanzada del
+          mundo.<br />
+          Servicio especializado en San Martin de los Andes y alrededores.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="bg-gradient-to-r from-gray-900 via-blue-800 to-black text-white text-center py-12 px-6 shadow-lg"
+    >
+      <div class="max-w-4xl mx-auto"></div>
+    </section>
+
+    <!-- BOTÓN DE WHATSAPP 
+<a href="https://wa.me/549299154136709" target="_blank"
+   class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg flex items-center gap-2 transition-transform hover:scale-110">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+       alt="WhatsApp" class="w-6 h-6" />
+  <span class="hidden md:inline text-sm font-medium">¿Necesitás ayuda?</span>
+</a>
+
+    <!-- CIERRE BOTON WAA -->
+
+
+    <!-- Mini chat estilo soporte técnico -->
+<div class="fixed bottom-6 left-6 z-50 w-72 bg-white shadow-xl rounded-xl overflow-hidden border border-gray-200">
+  <!-- Encabezado tipo WhatsApp -->
+  <div class="bg-green-600 text-white px-4 py-3 flex items-center gap-3">
+    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Soporte"
+         class="w-10 h-10 rounded-full border border-white" />
+    <div>
+      <p class="font-semibold leading-none">Soporte SurLink</p>
+      <p class="text-xs opacity-75">Conectado ahora</p>
     </div>
-  </section>
+  </div>
 
-  <!-- SERVICIOS -->
-  <section class="py-12 px-6 max-w-5xl mx-auto">
-    <h2 class="text-3xl font-bold text-center mb-10">¿Qué puedo hacer por vos?</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      
-      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
-        <div class="flex items-center mb-3">
-          <i data-feather="hard-drive" class="w-6 h-6 mr-2 text-blue-500"></i>
-          <h3 class="text-lg font-semibold">Formateo con Backup Inteligente</h3>
-        </div>
-        <p class="text-sm text-gray-600">Respaldo todos tus archivos y reinstalo el sistema. Sin pérdidas, sin sorpresas.</p>
-      </div>
-
-      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
-        <div class="flex items-center mb-3">
-          <i data-feather="zap" class="w-6 h-6 mr-2 text-yellow-500"></i>
-          <h3 class="text-lg font-semibold">PC optimizada al 100%</h3>
-        </div>
-        <p class="text-sm text-gray-600">Instalo Windows, drivers, Office y la dejo lista para rendir como nueva.</p>
-      </div>
-
-      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
-        <div class="flex items-center mb-3">
-          <i data-feather="wifi" class="w-6 h-6 mr-2 text-purple-500"></i>
-          <h3 class="text-lg font-semibold">Starlink 100% funcional</h3>
-        </div>
-        <p class="text-sm text-gray-600">De la caja a la conexión. Configuro tu sistema satelital para que navegues sin límites.</p>
-      </div>
-
-      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
-        <div class="flex items-center mb-3">
-          <i data-feather="globe" class="w-6 h-6 mr-2 text-green-500"></i>
-          <h3 class="text-lg font-semibold">Landing pages efectivas</h3>
-        </div>
-        <p class="text-sm text-gray-600">Diseño páginas rápidas, claras y conectadas a WhatsApp y Mercado Pago. Para que vendas sin perder tiempo.</p>
-      </div>
+  <!-- Burbuja de mensaje -->
+  <div class="p-4 bg-gray-50">
+    <div class="bg-white text-gray-700 p-3 rounded-xl shadow w-fit text-sm mb-3">
+      ¡Hola! ¿Necesitás ayuda con tu instalación o tu PC? 💬
     </div>
-  </section>
-
-  <!-- CTA PAGO -->
-  <section class="text-center py-12 bg-white">
-    <h2 class="text-2xl font-semibold mb-4">¿Querés que lo resolvamos ya?</h2>
-    <a href="https://www.mercadopago.com.ar/tu-link-de-pago" target="_blank"
-       class="inline-block bg-purple-600 hover:bg-purple-700 text-white py-3 px-8 rounded-full font-semibold transition transform hover:scale-105 shadow-lg">
-      💳 Iniciar servicio ahora
+    <a href="https://wa.me/549299154136709?text=Hola!%20Estoy%20interesado%20en%20una%20instalación%20de%20Starlink"
+       target="_blank"
+       class="w-full mt-2 inline-block text-center bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-xl font-semibold transition">
+      📲 Chatear por WhatsApp
     </a>
-    <p class="text-sm mt-3 text-gray-500">Pagás online o en persona. Lo importante es que funcione.</p>
-  </section>
+  </div>
+</div>
 
-  <!-- FOOTER -->
-  <footer class="bg-gray-200 text-center py-6 text-sm text-gray-600">
-    © 2025 — Tecnología real. Soluciones concretas. Hecho en Patagonia.
-  </footer>
+    <!-- CIERRE MINICHAT -->
 
-  <!-- Feather Icons -->
-  <script>
-    feather.replace()
-  </script>
+    <!-- FOOTER -->
+    <footer class="bg-gray-200 text-center py-6 text-sm text-gray-600">
+      © 2025 — Tecnología real. Soluciones concretas. Hecho en Patagonia.
+    </footer>
 
-</body>
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
 </html>
